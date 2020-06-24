@@ -30,7 +30,7 @@ struct ContentView: View {
     ]
     
     @State var showSheet = false
-    @State var shownItem:  ListItem?
+    @State var shownItem: ListItem?
     
     var body: some View {
         List {
